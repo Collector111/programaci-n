@@ -1,4 +1,4 @@
-package pro.Salidastring;
+package Salidastring;
 public class Salidastring{
     public static void main(String[] args){
         int resultado;
