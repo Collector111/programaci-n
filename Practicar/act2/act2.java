@@ -1,4 +1,4 @@
-package pro.Practicar.act2;
+package Practicar.act2;
 
 import java.util.Scanner;
 
