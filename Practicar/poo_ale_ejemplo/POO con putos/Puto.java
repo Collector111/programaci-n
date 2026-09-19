@@ -6,8 +6,9 @@ public class Puto extends Persona {
     int popularidad;
     int ganancias;
     boolean tieneCliente;
+    boolean tienelocal;
 
-    public Puto(String nombre, String apellido1, String apellido2, int edad, boolean raza, boolean tieneSexo, boolean virginidad, boolean ETS, int popularidad, int ganancias, boolean tieneCliente) {
+    public Puto(String nombre, String apellido1, String apellido2, int edad, boolean raza, boolean tieneSexo, boolean virginidad, boolean ETS, int popularidad, int ganancias, boolean tieneCliente,boolean tienelocal) {
 
         super(nombre, apellido1, apellido2, edad, raza, tieneSexo);
 
@@ -16,6 +17,7 @@ public class Puto extends Persona {
         popularidad = 0;
         ganancias = 0;
         tieneCliente = false;
+        tienelocal= false;
     }
 
     public void aceptaCliente() {
@@ -24,6 +26,15 @@ public class Puto extends Persona {
         } else {
             System.out.println("Ya se lo estan cogiendo");
         }
+    }
+
+    public boolean ingresalocal(){
+        if(tienelocal==false){
+            tienelocal= !tienelocal;
+        }else{
+            System.out.println("Ya tiene local no puede estar en 2 al mismo tiempo");
+        }
+        return tienelocal;
     }
 
     public void sesentaNueve() {

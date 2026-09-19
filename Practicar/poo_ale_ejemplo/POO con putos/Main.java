@@ -12,7 +12,7 @@ public class Main {
         SoldadoInvierno.esMichaelJackson();
         SoldadoInvierno.esMichaelJackson();
 
-        Puto Astolfo = new Puto("Astolfo", "Orlando", "Furioso", 19, true, false, false, false, 0, 0, false);
+        Puto Astolfo = new Puto("Astolfo", "Orlando", "Furioso", 19, true, false, false, false, 0, 0, false,false);
 
         System.out.println(Astolfo.toString());
 
@@ -36,6 +36,10 @@ public class Main {
         Astolfo.Xupada();
 
         System.out.println(Astolfo.toString());
+
+        System.out.println(Astolfo.ingresalocal());
+
+        System.out.println(Astolfo.ingresalocal());
 
     }
 }
