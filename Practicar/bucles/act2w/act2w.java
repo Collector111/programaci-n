@@ -15,5 +15,6 @@ public class act2w {
            suma=suma+num;
         }
         System.out.println("La suma es la siguiente: "+suma);
+        leer.close();
     }
 }
