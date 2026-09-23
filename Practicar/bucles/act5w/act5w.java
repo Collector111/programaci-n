@@ -15,6 +15,7 @@ public static void main(String[] args) {
     Random random=new Random();
     int order;
     int banderin=0;
+    int count=5700;
     
 
     while (banderin==0) {
@@ -23,7 +24,8 @@ public static void main(String[] args) {
         System.out.println("1. Saludar");
         System.out.println("2. Mostrar numero random");
         System.out.println("3. Mostrar numeros del 1-10");
-        System.out.println("4. Salir");
+        System.out.println("4. Count up");
+        System.out.println("5. Salir");
         System.out.println("<-------------------------------->");
         order=leer.nextInt();
 
@@ -36,6 +38,12 @@ public static void main(String[] args) {
                 break;
             case 3:
                 System.out.println("1,2,3,4,5,6,7,8,9,10");
+                break;
+            case 4:
+                while (count!=57000) {
+                    System.out.println(count);
+                    count++;
+                }
                 break;
             default:
                 banderin=1;
