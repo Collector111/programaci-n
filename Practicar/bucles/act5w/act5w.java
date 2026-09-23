@@ -40,7 +40,7 @@ public static void main(String[] args) {
                 System.out.println("1,2,3,4,5,6,7,8,9,10");
                 break;
             case 4:
-                while (count!=57000) {
+                while (count!=57001) {
                     System.out.println(count);
                     count++;
                 }
@@ -49,6 +49,7 @@ public static void main(String[] args) {
                 banderin=1;
                 break;
         }
+        count=5700;
 
     }
     leer.close();
