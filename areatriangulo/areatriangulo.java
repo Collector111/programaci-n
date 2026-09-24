@@ -16,5 +16,6 @@ public class areatriangulo {
         area=base*altura/2.0;
 
         System.out.println("El area es: "+area);
+        leer.close();
     }
 }
