@@ -18,5 +18,6 @@ public class act2f {
         }
         media=suma/5;
         System.out.println("La media es: "+media);
+        leer.close();
     }
 }
