@@ -10,7 +10,7 @@ public class numerovuelta {
         System.out.println("Introduce un numero:");
         num = leer.nextInt();
 
-        if(num>999){
+        if(num<999&& num>0){
 
         int centenas = num / 100;
         int decenas = (num / 10) % 10;
