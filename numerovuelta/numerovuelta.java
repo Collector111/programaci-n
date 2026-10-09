@@ -1,4 +1,4 @@
-package pro.numerovuelta;
+package numerovuelta;
 
 import java.util.Scanner;
 
