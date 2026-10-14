@@ -4,12 +4,17 @@ public class CuentaBancaria {
     // 6. Crea una clase BankAccount con atributo balance y un método deposit() que sume el saldo.
     private String titular;
     private Double saldo;
+    private String nip;
 
-    public CuentaBancaria(String titular,Double saldoinicial){
+    public CuentaBancaria(String titular,Double saldoinicial,String nip){
         this.titular=titular;
         this.saldo=saldoinicial;
+        this.nip=nip;
     }
-
+    //validarnip lo que hace es comparar el nip que vas a guardar con el que vas a introducir
+    public boolean validarnip(String nipingresado){
+        return this.nip.equals(nipingresado);
+    }
     public void Depositar(Double cantidad){
         if(cantidad<=0){
             saldo=saldo+0;
