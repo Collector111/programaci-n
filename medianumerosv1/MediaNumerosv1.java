@@ -19,6 +19,10 @@ public class MediaNumerosv1 {
             if(num>0){
             suma=suma+num;
             }
+            else{
+                System.out.println("No se permiten numeros negativos");
+                i--;
+            }
             
         }   
         }else{
