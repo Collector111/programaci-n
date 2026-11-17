@@ -21,7 +21,7 @@ public class mediarrays {
         }
         tope=num;
         for(int i=0;i<nums.length;i++){
-            if(nums[i]>=tope){
+            if(nums[i]<=tope){
              suma=suma+nums[i];   
             }
         }
